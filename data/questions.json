@@ -1,0 +1,533 @@
+[
+  {
+    "id": "decision_001",
+    "domain": "decision_making",
+    "dimension": "decision_strategy",
+    "response_type": "single_choice",
+    "prompt": "You have to make an important decision with incomplete information. What do you usually do first?",
+    "rationale": "Explores default decision strategy under uncertainty.",
+    "options": [
+      {
+        "id": "a",
+        "label": "Gather more information until the choice feels clear"
+      },
+      {
+        "id": "b",
+        "label": "Make a provisional choice and adjust as I learn"
+      },
+      {
+        "id": "c",
+        "label": "Ask someone whose judgment I trust"
+      },
+      {
+        "id": "d",
+        "label": "Delay because I worry about choosing badly"
+      }
+    ]
+  },
+  {
+    "id": "decision_002",
+    "domain": "decision_making",
+    "dimension": "regret",
+    "response_type": "single_choice",
+    "prompt": "After a decision turns out poorly, what tends to occupy your mind most?",
+    "options": [
+      {
+        "id": "a",
+        "label": "What I could have done differently"
+      },
+      {
+        "id": "b",
+        "label": "Factors I could not have predicted or controlled"
+      },
+      {
+        "id": "c",
+        "label": "How the outcome affects other people"
+      },
+      {
+        "id": "d",
+        "label": "I review it briefly, then move on"
+      }
+    ]
+  },
+  {
+    "id": "emotion_001",
+    "domain": "emotional_regulation",
+    "dimension": "criticism_response",
+    "response_type": "single_choice",
+    "prompt": "Someone criticizes your work and you believe the criticism is unfair. What is your most likely first reaction?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Defend my position immediately"
+      },
+      {
+        "id": "b",
+        "label": "Stay quiet and think about it afterward"
+      },
+      {
+        "id": "c",
+        "label": "Check whether any part of it might be true"
+      },
+      {
+        "id": "d",
+        "label": "Feel frustrated but hide it"
+      },
+      {
+        "id": "e",
+        "label": "Ask questions to understand their reasoning"
+      }
+    ]
+  },
+  {
+    "id": "emotion_002",
+    "domain": "emotional_regulation",
+    "dimension": "recovery",
+    "response_type": "single_choice",
+    "prompt": "After a stressful day, what most often helps you return to yourself?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Quiet time alone"
+      },
+      {
+        "id": "b",
+        "label": "Talking it through with someone"
+      },
+      {
+        "id": "c",
+        "label": "Movement or a hands-on activity"
+      },
+      {
+        "id": "d",
+        "label": "Solving the problem that caused the stress"
+      },
+      {
+        "id": "e",
+        "label": "Distraction until the feeling passes"
+      }
+    ]
+  },
+  {
+    "id": "motivation_001",
+    "domain": "motivation",
+    "dimension": "primary_need",
+    "response_type": "single_choice",
+    "prompt": "Which situation is most likely to drain your motivation over time?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Having little control over how I work"
+      },
+      {
+        "id": "b",
+        "label": "Making effort that nobody notices"
+      },
+      {
+        "id": "c",
+        "label": "Not knowing what to expect"
+      },
+      {
+        "id": "d",
+        "label": "Feeling disconnected from people around me"
+      },
+      {
+        "id": "e",
+        "label": "Not seeing progress or learning"
+      }
+    ]
+  },
+  {
+    "id": "motivation_002",
+    "domain": "motivation",
+    "dimension": "reward",
+    "response_type": "single_choice",
+    "prompt": "Which outcome makes sustained effort feel most worthwhile to you?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Becoming more capable at something difficult"
+      },
+      {
+        "id": "b",
+        "label": "Creating security and stability"
+      },
+      {
+        "id": "c",
+        "label": "Having freedom to choose my direction"
+      },
+      {
+        "id": "d",
+        "label": "Contributing to people or a cause I care about"
+      },
+      {
+        "id": "e",
+        "label": "Receiving recognition for strong results"
+      }
+    ]
+  },
+  {
+    "id": "social_001",
+    "domain": "social_behavior",
+    "dimension": "new_groups",
+    "response_type": "single_choice",
+    "prompt": "You arrive at a gathering where you know almost nobody. What do you tend to do?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Start conversations with several people"
+      },
+      {
+        "id": "b",
+        "label": "Find one person and talk more deeply"
+      },
+      {
+        "id": "c",
+        "label": "Observe first and join when something interests me"
+      },
+      {
+        "id": "d",
+        "label": "Wait for someone to approach me"
+      },
+      {
+        "id": "e",
+        "label": "Look for a familiar person or a clear role"
+      }
+    ]
+  },
+  {
+    "id": "social_002",
+    "domain": "social_behavior",
+    "dimension": "conflict",
+    "response_type": "single_choice",
+    "prompt": "A friend seems upset with you but says nothing is wrong. What are you most likely to do?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Ask directly whether something happened"
+      },
+      {
+        "id": "b",
+        "label": "Give them space and wait"
+      },
+      {
+        "id": "c",
+        "label": "Think through what I might have done"
+      },
+      {
+        "id": "d",
+        "label": "Act normally unless they raise it"
+      },
+      {
+        "id": "e",
+        "label": "Try to lighten the mood"
+      }
+    ]
+  },
+  {
+    "id": "behavior_001",
+    "domain": "behavioral_patterns",
+    "dimension": "persistence",
+    "response_type": "single_choice",
+    "prompt": "You are learning a skill and progress is slower than expected. What usually happens next?",
+    "options": [
+      {
+        "id": "a",
+        "label": "I increase practice and effort"
+      },
+      {
+        "id": "b",
+        "label": "I try a different method"
+      },
+      {
+        "id": "c",
+        "label": "I take a break, then return"
+      },
+      {
+        "id": "d",
+        "label": "I lose interest if progress stays slow"
+      },
+      {
+        "id": "e",
+        "label": "I ask someone for feedback or help"
+      }
+    ]
+  },
+  {
+    "id": "behavior_002",
+    "domain": "behavioral_patterns",
+    "dimension": "procrastination",
+    "response_type": "single_choice",
+    "prompt": "When an important task feels vague or overwhelming, what is your usual response?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Break it into smaller steps"
+      },
+      {
+        "id": "b",
+        "label": "Research or plan before beginning"
+      },
+      {
+        "id": "c",
+        "label": "Switch to easier tasks first"
+      },
+      {
+        "id": "d",
+        "label": "Wait until urgency helps me start"
+      },
+      {
+        "id": "e",
+        "label": "Talk it through with someone"
+      }
+    ]
+  },
+  {
+    "id": "self_001",
+    "domain": "self_perception",
+    "dimension": "self_evaluation",
+    "response_type": "single_choice",
+    "prompt": "When you achieve something you worked hard for, what best describes your reaction?",
+    "options": [
+      {
+        "id": "a",
+        "label": "I feel satisfied and let myself enjoy it"
+      },
+      {
+        "id": "b",
+        "label": "I quickly focus on the next goal"
+      },
+      {
+        "id": "c",
+        "label": "I notice what could still be better"
+      },
+      {
+        "id": "d",
+        "label": "I wonder whether it was difficult enough to count"
+      },
+      {
+        "id": "e",
+        "label": "I feel proud when other people recognize it"
+      }
+    ]
+  },
+  {
+    "id": "self_002",
+    "domain": "self_perception",
+    "dimension": "agency",
+    "response_type": "single_choice",
+    "prompt": "When a part of your life is not going well, how much influence do you usually feel you have over improving it?",
+    "options": [
+      {
+        "id": "a",
+        "label": "A lot; I can usually find an action to take"
+      },
+      {
+        "id": "b",
+        "label": "Some, though timing and circumstances matter"
+      },
+      {
+        "id": "c",
+        "label": "It depends heavily on the situation"
+      },
+      {
+        "id": "d",
+        "label": "Little; external factors often dominate"
+      },
+      {
+        "id": "e",
+        "label": "I am unsure where to start"
+      }
+    ]
+  },
+  {
+    "id": "relationships_001",
+    "domain": "relationships",
+    "dimension": "support_preference",
+    "response_type": "single_choice",
+    "prompt": "When you are upset about something important, what response from someone close to you helps most?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Listening carefully without trying to fix it"
+      },
+      {
+        "id": "b",
+        "label": "Helping me think through practical options"
+      },
+      {
+        "id": "c",
+        "label": "Reassuring me that we are okay"
+      },
+      {
+        "id": "d",
+        "label": "Giving me some time alone first"
+      },
+      {
+        "id": "e",
+        "label": "Being honest, even if it is uncomfortable"
+      }
+    ]
+  },
+  {
+    "id": "relationships_002",
+    "domain": "relationships",
+    "dimension": "repair",
+    "response_type": "single_choice",
+    "prompt": "After a disagreement with someone important to you, what most helps restore trust?",
+    "options": [
+      {
+        "id": "a",
+        "label": "A clear apology and acknowledgment of impact"
+      },
+      {
+        "id": "b",
+        "label": "A calm conversation about what happened"
+      },
+      {
+        "id": "c",
+        "label": "Seeing changed behavior over time"
+      },
+      {
+        "id": "d",
+        "label": "Warmth and reconnecting without a long discussion"
+      },
+      {
+        "id": "e",
+        "label": "Agreeing on practical boundaries for next time"
+      }
+    ]
+  },
+  {
+    "id": "ambiguity_001",
+    "domain": "ambiguity_tolerance",
+    "dimension": "uncertainty",
+    "response_type": "single_choice",
+    "prompt": "When you cannot know how an important situation will turn out, what is hardest for you?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Not being able to plan for the outcome"
+      },
+      {
+        "id": "b",
+        "label": "Not knowing whether I am making the right choice"
+      },
+      {
+        "id": "c",
+        "label": "Feeling that I have little control"
+      },
+      {
+        "id": "d",
+        "label": "Waiting without a clear timeline"
+      },
+      {
+        "id": "e",
+        "label": "I can usually accept that uncertainty remains"
+      }
+    ]
+  },
+  {
+    "id": "ambiguity_002",
+    "domain": "ambiguity_tolerance",
+    "dimension": "risk",
+    "response_type": "single_choice",
+    "prompt": "A promising opportunity has meaningful benefits but also a real chance of failure. What would most influence your choice?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Whether the downside is survivable"
+      },
+      {
+        "id": "b",
+        "label": "How much I could learn even if it fails"
+      },
+      {
+        "id": "c",
+        "label": "Whether trusted people support the choice"
+      },
+      {
+        "id": "d",
+        "label": "How rare the opportunity is"
+      },
+      {
+        "id": "e",
+        "label": "How predictable the likely outcomes are"
+      }
+    ]
+  },
+  {
+    "id": "emotion_003",
+    "domain": "emotional_regulation",
+    "dimension": "anger_trigger",
+    "response_type": "single_choice",
+    "prompt": "Which situation is most likely to irritate you more than you think it should?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Someone dismissing effort I put in"
+      },
+      {
+        "id": "b",
+        "label": "Someone changing an agreement without discussing it"
+      },
+      {
+        "id": "c",
+        "label": "Being interrupted or misunderstood"
+      },
+      {
+        "id": "d",
+        "label": "Unnecessary inefficiency or disorganization"
+      },
+      {
+        "id": "e",
+        "label": "Being judged without knowing the full context"
+      }
+    ]
+  },
+  {
+    "id": "motivation_003",
+    "domain": "motivation",
+    "dimension": "meaning",
+    "response_type": "free_text",
+    "prompt": "Describe a recent moment when an activity felt genuinely worthwhile. What made it feel that way?",
+    "options": [],
+    "rationale": "Open response to uncover personally meaningful rewards in the user's own language."
+  },
+  {
+    "id": "self_003",
+    "domain": "self_perception",
+    "dimension": "inner_criticism",
+    "response_type": "free_text",
+    "prompt": "When you make a mistake, what do you tend to say to yourself internally?",
+    "options": [],
+    "rationale": "Explore self-talk without assuming pathology."
+  },
+  {
+    "id": "behavior_003",
+    "domain": "behavioral_patterns",
+    "dimension": "avoidance",
+    "response_type": "free_text",
+    "prompt": "What kind of task or situation do you find yourself avoiding, and what do you notice just before you avoid it?",
+    "options": [],
+    "rationale": "Connects behavior with context and possible function without presuming a cause."
+  },
+  {
+    "id": "relationships_003",
+    "domain": "relationships",
+    "dimension": "boundaries",
+    "response_type": "free_text",
+    "prompt": "When is it hardest for you to say no to another person? What makes that situation difficult?",
+    "options": [],
+    "rationale": "Explores interpersonal boundaries in the user's own words."
+  },
+  {
+    "id": "decision_003",
+    "domain": "decision_making",
+    "dimension": "values_conflict",
+    "response_type": "free_text",
+    "prompt": "Think of a recent choice where two things you value conflicted. What did you choose, and what made the choice difficult?",
+    "options": [],
+    "rationale": "Explores values through an actual trade-off rather than abstract self-description."
+  }
+]
